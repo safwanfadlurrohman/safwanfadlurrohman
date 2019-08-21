@@ -1,0 +1,20 @@
+body {
+	background-color: green;
+	color:white;
+}
+
+h1 {
+	font-size: 25px;
+	border-width : 1px;
+	border:solid;
+	border-color:white;
+	border-top-left-radius: 50px;
+}
+
+.tes {
+	font-size: 50px;
+}
+
+#tes2 {
+	color: red;
+}

@@ -1,0 +1,22 @@
+body {
+	background-color: green;
+	color:white;
+}
+
+h1 {
+	font-size: 25px;
+	border-width : 1px;
+	border:solid;
+	border-color:black;
+	border-top-left-radius: 50px;
+}
+
+.tes {
+	color: purple;
+	font-size: 50px;
+}
+
+#tes1 {
+	font-size: 50px;
+	color: red;
+}

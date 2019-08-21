@@ -1,0 +1,27 @@
+body = selector
+background-color = property
+grey = value
+background-color:grey; = declaration
+class = bisa digunakan berkali kali dan menggunakan titik		
+id = hanya bisa digunakan sekali dan menggunakan pager
+
+
+git add *
+git commit -m "first commit"
+https://github.com/safwanfadlurrohman/safwanfadlurrohman.git
+git push -u origin master
+
+
+for (i=1; i<=5; i++) {
+	Pernyataan
+}
+
+
+
+while = Memenuhi dulu kondisi, baru melakukan aksi
+Do while = Melakukan dulu aksi lalu mengecek kondisi
+
+<BR> = Garis baru
+
+array = kumpulan data yang sejenis
+record = kumpulan data yang tidak sejenis
