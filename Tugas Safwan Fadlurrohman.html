@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Pendaftaran</title>
+<style>
+  body{margin: 100px 500px; background:cyan;}
+ </style>
+</head>
+<body>
+
+	<center><h2>PENDAFTARAN</h2></center>
+<form>
+<fieldset>
+	<div class="login">
+		<form action="#" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Username:</label><br>
+				<input type="text" name="username" id="username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{7,20}$" required/>
+			</div>
+<br>
+                        <div>
+                               <label>Password:</label><br>
+                         <input type="password" name="pass"" required/>
+                        <div>
+            
+                        </div>
+                        </div>
+<br>
+                        <div>
+                              <label>Jenis Kelamin:</label><br>
+                              <input type="radio"/>Laki-Laki
+                              <input type="radio"/>Perempuan
+                        </div>
+<br>
+						<div>
+							  <label>Alamat:</label><br>
+				              <input type="text" name="alamat" id="alamat" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{7,20}$" required/>
+				        </div>
+<br>
+						<div>
+							  <label>Status:</label><br>
+				              <input type="text" name="status" id="status" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{7,20}$" required/>
+				        </div>
+<br>				        
+                        <div>
+                           <label>Tanggal Lahir:</label><br>				
+                           <input type="Date" name="tanggallahir" id="tanggallahir"/>
+			</div>
+<br>
+			<div>
+				<label>Email:</label><br>
+				<input type="email" name="email" id="email" />
+			</div>
+			<br>
+			<div>
+				 <input type="submit" name="sub" value="Daftar">
+			</div>
+                        
+		</form>
+	</div>
+</body>
+
+</fieldset>
+<script type="text/javascript">
+	function validasi() {
+var a = document.form.pass.value;
+if(a=="")
+{
+alert("Please Enter Your Password");
+document.form.pass.focus();
+return false;
+}
+}
+
+</script>
+</html>
